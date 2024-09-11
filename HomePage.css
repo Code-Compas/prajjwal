@@ -296,7 +296,13 @@ body {
   height: 88px;
   overflow: hidden;
   transition: 0.25s var(--cubic-out);
-}
+   /* display: flex;  */
+  position: sticky;
+   width: 100%;  
+   /* flex-wrap: wrap; */
+   top: 0%;
+   z-index: 999;
+} 
 
 .header.active {
   height: 425px;

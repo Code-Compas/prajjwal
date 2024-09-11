@@ -55,7 +55,8 @@
           </li>
 
           <li>
-            <a href="#" class="navbar-link">About Us</a>
+
+            <a href="#footer-top" class="navbar-link" onclick="scrollToFooter()">About Us</a>
           </li>
 
           <li>
@@ -67,7 +68,7 @@
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Blog</a>
+            <a href="Profile.html" class="navbar-link">User Profile</a>
           </li>
 
           <li>
@@ -77,6 +78,8 @@
         </ul>
 
         <a href="#" class="btn btn-secondary">Booking Now</a>
+
+        <i class="fa-solid fa-user"></i>
 
       </nav>
 
@@ -396,7 +399,7 @@
         - #ABOUT
       -->
 
-      <section class="section about">
+      <section class="about">
         <div class="container">
 
           <div class="about-content">
@@ -672,7 +675,7 @@
     - #FOOTER
   -->
 
-  <footer class="footer" style="background-image: url('./images/footer-bg.png')">
+  <footer class="footer" id="footer" style="background-image: url('./images/footer-bg.png')">
     <div class="container">
 
       <div class="footer-top">
@@ -852,6 +855,13 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    function scrollToFooter(){
+      document.getElementById('footer').scrollIntoView({
+        behavior:"smooth"
+      });
+    }
+  </script>
 
 </body>
 

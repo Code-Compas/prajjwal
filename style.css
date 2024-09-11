@@ -229,6 +229,18 @@ form .linkTxt{
     transition: 1.5s ease;
     transition-delay: 1.6s;
 }
+@media (width<662px) {
+    .wrapper .rotate-bg{
+        transform: rotate(15deg) skewY(40deg);
+
+    }
+}
+@media (width<489px) {
+    .wrapper .rotate-bg{
+        transform: rotate(25deg) skewY(40deg);
+
+    }
+}
 
 .wrapper.active .rotate-bg{
     transform: rotate(0) skewY(0);
