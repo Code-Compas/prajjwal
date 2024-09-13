@@ -342,6 +342,22 @@ body {
   transition: var(--transition-1);
 }
 
+.fa-user{
+  position:relative;
+  left: 150px; 
+  text-align: right;
+  font-size: 26px;
+  /* font color:  */
+  margin-right: 0;
+  border: 20px;
+  border-color: red;
+  color: white;
+}
+
+.fa-user:is(:hover, :focus){
+  color: black;
+}
+
 .header.active .navbar {
   opacity: 1;
   visibility: visible;
