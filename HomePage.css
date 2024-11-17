@@ -191,6 +191,22 @@ body {
 
 .section { padding-block: var(--section-padding); }
 
+.back1{
+  width:100%;
+  background-color:var(--viridian-green);
+  
+}
+.back2{
+  width:100%;
+  background-color:var(--viridian-green);
+
+}
+.back3{
+  width:100%;
+  background-color:var(--viridian-green);
+
+}
+
 .section-subtitle {
   font-family: var(--ff-comforter-brush);
   color: var(--mikado-yellow);
@@ -559,6 +575,10 @@ body {
   margin-bottom: 5px;
 }
 
+.about{
+  background-color: rgb(228, 227, 227);
+  
+}
 
 
 
